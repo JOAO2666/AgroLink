@@ -1,0 +1,6 @@
+This directory will contain images for the AgroLink application:
+- vale-sao-francisco.jpg
+- fruits.jpg
+- irrigation.jpg
+- certifications.jpg
+- logistics.jpg
