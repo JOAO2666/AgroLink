@@ -1,41 +1,30 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { ThemeProvider, createTheme } from '@material-ui/core/styles';
-import CssBaseline from '@material-ui/core/CssBaseline';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import theme from './theme';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Marketplace from './pages/Marketplace';
-import Chat from './pages/Chat';
-import Profile from './pages/Profile';
 import ProductDetails from './pages/ProductDetails';
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#4CAF50',
-    },
-    secondary: {
-      main: '#FFA000',
-    },
-  },
-});
+import Login from './pages/Login';
+import Register from './pages/Register';
+import { CartProvider } from './contexts/CartContext';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
-        <div className="App">
+      <CartProvider>
+        <Router>
           <Navbar />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/marketplace" component={Marketplace} />
-            <Route path="/chat" component={Chat} />
-            <Route path="/profile" component={Profile} />
-            <Route path="/product/:id" component={ProductDetails} />
-          </Switch>
-        </div>
-      </Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/product/:id" element={<ProductDetails />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+          </Routes>
+        </Router>
+      </CartProvider>
     </ThemeProvider>
   );
 }

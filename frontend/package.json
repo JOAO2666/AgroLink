@@ -2,12 +2,14 @@
   "name": "agrolink-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JOAO2666.github.io/AgroLink",
+  "homepage": ".",
   "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.11.16",
+    "@mui/icons-material": "^5.16.12",
     "@mui/material": "^5.13.0",
+    "@react-oauth/google": "^0.12.1",
     "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -40,6 +42,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.0"
+    "gh-pages": "^6.2.0"
   }
 }

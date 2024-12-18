@@ -92,3 +92,61 @@ agrolink/
 ## Licença
 
 Este projeto está sob a licença MIT.
+
+## 🌐 Site
+
+Acesse o AgroLink em: [https://joao2666.github.io/AgroLink/](https://joao2666.github.io/AgroLink/)
+
+## 📝 Descrição
+
+O AgroLink é uma plataforma que conecta produtores agrícolas do Vale do São Francisco com compradores de todo o Brasil. Nossa missão é facilitar o comércio de produtos agrícolas, promovendo o desenvolvimento econômico da região.
+
+## 🚀 Tecnologias
+
+- Frontend:
+  - React.js
+  - Material-UI
+  - React Router
+
+- Backend:
+  - Python
+  - Flask
+  - SQLite
+
+## 💻 Desenvolvimento
+
+Para rodar o projeto localmente:
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/JOAO2666/AgroLink.git
+```
+
+2. Instale as dependências do frontend:
+```bash
+cd frontend
+npm install
+```
+
+3. Instale as dependências do backend:
+```bash
+pip install -r requirements.txt
+```
+
+4. Execute o projeto:
+```bash
+# Terminal 1 - Backend
+python app.py
+
+# Terminal 2 - Frontend
+cd frontend
+npm start
+```
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição antes de submeter um pull request.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
