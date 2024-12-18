@@ -1,0 +1,8 @@
+Esta pasta contém imagens de produtos.
+
+Por favor, adicione as seguintes imagens:
+- manga.jpg
+- uva.jpg
+- goiaba.jpg
+- manga1.jpg
+- manga2.jpg

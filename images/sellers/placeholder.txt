@@ -1,0 +1,6 @@
+Esta pasta contém imagens de vendedores.
+
+Por favor, adicione as seguintes imagens:
+- joao.jpg
+- maria.jpg
+- pedro.jpg
